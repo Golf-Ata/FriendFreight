@@ -15,6 +15,8 @@
 		D1F2B1AE1E43F6DC00D3B825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F2B1AC1E43F6DC00D3B825 /* LaunchScreen.storyboard */; };
 		D1F2B1B91E43F6DC00D3B825 /* FriendFreightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F2B1B81E43F6DC00D3B825 /* FriendFreightTests.swift */; };
 		D1F2B1C41E43F6DC00D3B825 /* FriendFreightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F2B1C31E43F6DC00D3B825 /* FriendFreightUITests.swift */; };
+		D1F55C6E1E45B2FB00E0C6DD /* ImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F55C6D1E45B2FB00E0C6DD /* ImportService.swift */; };
+		D1F55C701E45B48700E0C6DD /* FriendFreight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F55C6F1E45B48700E0C6DD /* FriendFreight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D1F2B1BF1E43F6DC00D3B825 /* FriendFreightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFreightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F2B1C31E43F6DC00D3B825 /* FriendFreightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFreightUITests.swift; sourceTree = "<group>"; };
 		D1F2B1C51E43F6DC00D3B825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F55C6D1E45B2FB00E0C6DD /* ImportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportService.swift; sourceTree = "<group>"; };
+		D1F55C6F1E45B48700E0C6DD /* FriendFreight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendFreight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				D1F2B1A11E43F6DC00D3B825 /* AppDelegate.swift */,
 				D1F2B1A31E43F6DC00D3B825 /* FirstViewController.swift */,
+				D1F55C6D1E45B2FB00E0C6DD /* ImportService.swift */,
+				D1F55C6F1E45B48700E0C6DD /* FriendFreight.swift */,
 				D1F2B1A51E43F6DC00D3B825 /* SecondViewController.swift */,
 				D1F2B1A71E43F6DC00D3B825 /* Main.storyboard */,
 				D1F2B1AA1E43F6DC00D3B825 /* Assets.xcassets */,
@@ -267,6 +273,8 @@
 			files = (
 				D1F2B1A61E43F6DC00D3B825 /* SecondViewController.swift in Sources */,
 				D1F2B1A21E43F6DC00D3B825 /* AppDelegate.swift in Sources */,
+				D1F55C701E45B48700E0C6DD /* FriendFreight.swift in Sources */,
+				D1F55C6E1E45B2FB00E0C6DD /* ImportService.swift in Sources */,
 				D1F2B1A41E43F6DC00D3B825 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +524,7 @@
 				D1F2B1CA1E43F6DC00D3B825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1F2B1CB1E43F6DC00D3B825 /* Build configuration list for PBXNativeTarget "FriendFreightTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				D1F2B1CD1E43F6DC00D3B825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1F2B1CE1E43F6DC00D3B825 /* Build configuration list for PBXNativeTarget "FriendFreightUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				D1F2B1D01E43F6DC00D3B825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
